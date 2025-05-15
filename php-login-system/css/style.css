@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: linear-gradient(123deg, #FFFFFF 0%, #00B2FF 100%), linear-gradient(236deg, #BAFF99 0%, #005E64 100%), linear-gradient(180deg, #FFFFFF 0%, #002A5A 100%), linear-gradient(225deg, #0094FF 20%, #BFF4ED 45%, #280F34 45%, #280F34 70%, #FF004E 70%, #E41655 85%, #B30753 85%, #B30753 100%), linear-gradient(135deg, #0E0220 15%, #0E0220 35%, #E40475 35%, #E40475 60%, #48E0E4 60%, #48E0E4 68%, #D7FBF6 68%, #D7FBF6 100%);
+    background-blend-mode: overlay, overlay, overlay, darken, normal;
+    background-size: "cover";
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.5px);
+-webkit-backdrop-filter: blur(3.5px);
+border: 1px solid rgba(255, 255, 255, 0.21);
+
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    width: 350px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
