@@ -1,0 +1,46 @@
+/* style.css */
+
+
+body {
+    font-family: Arial;
+    background: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #004d99;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    margin: auto;
+    background: white;
+}
+
+h2,
+p {
+    text-align: center;
+}
